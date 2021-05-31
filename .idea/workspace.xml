@@ -23,8 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf199785-b9aa-4c8b-855d-2d2898872d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dolos/Dolos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -62,10 +60,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RunManager">
     <configuration name="Dolos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dolos.Dolos" />
+      <option name="MAIN_CLASS_NAME" value="net.entscrew.dolos.Dolos" />
       <module name="dolos" />
       <extension name="coverage">
         <pattern>
@@ -110,10 +109,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622496562770">
+    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622497093798">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622496562770" />
+    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622497093798" />
+    <state x="540" y="351" key="Maven.ArtifactSearchDialog" timestamp="1622497529425">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="540" y="351" key="Maven.ArtifactSearchDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622497529425" />
+    <state x="776" y="358" key="chooseDestDirectoryDialog" timestamp="1622496817556">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="776" y="358" key="chooseDestDirectoryDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622496817556" />
     <state x="529" y="241" key="new project wizard" timestamp="1622496669707">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
