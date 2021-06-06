@@ -23,10 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf199785-b9aa-4c8b-855d-2d2898872d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/entscrew/dolos/it/DolosIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/entscrew/dolos/unit/DolosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/net.entscrew.dolos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/entscrew/dolos/DolosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/Dolos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/Dolos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/entscrew/dolos/it/DolosIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/entscrew/dolos/unit/DolosTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -62,8 +68,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.entscrew.dolos" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -117,30 +133,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622497925902">
+    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622498699230">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622497925902" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1622498184814">
+    <state x="414" y="235" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622498699230" />
+    <state x="660" y="354" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1622667314196">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622498184814" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1622498184813">
+    <state x="660" y="354" key="#com.intellij.ide.util.PackageChooserDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622667314196" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1622978038465">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622498184813" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1622498184813">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622978038465" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1622978038465">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622498184813" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1622498184813">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622978038465" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1622978038464">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622498184813" />
-    <state x="540" y="351" key="Maven.ArtifactSearchDialog" timestamp="1622498203285">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622978038464" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1622978038465">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="540" y="351" key="Maven.ArtifactSearchDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622498203285" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622978038465" />
+    <state x="540" y="351" key="Maven.ArtifactSearchDialog" timestamp="1622670671088">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="540" y="351" key="Maven.ArtifactSearchDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622670671088" />
     <state x="461" y="225" key="SettingsEditor" timestamp="1622497796156">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -149,13 +169,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="776" y="358" key="chooseDestDirectoryDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622496817556" />
-    <state x="529" y="241" key="new project wizard" timestamp="1622496669707">
+    <state x="701" y="400" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622978004479">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="529" y="241" key="new project wizard/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622496669707" />
+    <state x="701" y="400" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622978004479" />
+    <state x="529" y="241" key="new project wizard" timestamp="1622670945086">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="529" y="241" key="new project wizard/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622670945086" />
     <state x="616" y="270" key="run.anything.popup" timestamp="1622497905327">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="616" y="270" key="run.anything.popup/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622497905327" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dolos$Dolos.ic" NAME="Dolos Coverage Results" MODIFIED="1622978025914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dolos.*</FILTER>
+    </SUITE>
   </component>
 </project>
