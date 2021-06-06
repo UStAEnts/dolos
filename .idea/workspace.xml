@@ -23,14 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf199785-b9aa-4c8b-855d-2d2898872d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/PrimaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/SecondaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/net.entscrew.dolos/secondary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/Dolos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/Dolos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/net.entscrew.dolos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/net.entscrew.dolos/primary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/net/entscrew/dolos/primary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/net/entscrew/dolos/secondary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/net.entscrew.dolos/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/net.entscrew.dolos/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net.entscrew.dolos/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net.entscrew.dolos/secondary.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,22 +152,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="739" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622992409141" />
-    <state width="1877" height="529" key="GridCell.Tab.0.bottom" timestamp="1622992246066">
+    <state width="1877" height="751" key="GridCell.Tab.0.bottom" timestamp="1622997198273">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="529" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622992246066" />
-    <state width="1877" height="529" key="GridCell.Tab.0.center" timestamp="1622992246066">
+    <state width="1877" height="751" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622997198273" />
+    <state width="1877" height="751" key="GridCell.Tab.0.center" timestamp="1622997198273">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="529" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622992246066" />
-    <state width="1877" height="529" key="GridCell.Tab.0.left" timestamp="1622992246066">
+    <state width="1877" height="751" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622997198273" />
+    <state width="1877" height="751" key="GridCell.Tab.0.left" timestamp="1622997198273">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="529" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622992246066" />
-    <state width="1877" height="529" key="GridCell.Tab.0.right" timestamp="1622992246066">
+    <state width="1877" height="751" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622997198273" />
+    <state width="1877" height="751" key="GridCell.Tab.0.right" timestamp="1622997198273">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="529" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622992246066" />
+    <state width="1877" height="751" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622997198273" />
     <state x="540" y="351" key="Maven.ArtifactSearchDialog" timestamp="1622670671088">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
