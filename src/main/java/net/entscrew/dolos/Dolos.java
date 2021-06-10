@@ -8,6 +8,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import net.entscrew.dolos.ClientOSC;
+import netP5.NetAddress;
+import oscP5.OscMessage;
+import oscP5.OscP5;
+
+
 public class Dolos extends Application {
 
     private static Scene scene;
@@ -29,7 +35,19 @@ public class Dolos extends Application {
     }
 
     public static void main(String[] args) {
+        OscP5 oscP5;
+        NetAddress x32;
+
+        oscP5 = new OscP5(null, 10023);
+        x32 = new NetAddress("192.168.1.78", 10023);
+
+
+        OscMessage oscMessage = new OscMessage("/ch/01/mix/on");
+        oscMessage.add(0);
+        oscP5.send(oscMessage);
+
         launch();
+
     }
 
 }

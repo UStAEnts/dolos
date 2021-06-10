@@ -14,11 +14,19 @@
         <maven.compiler.target>13</maven.compiler.target>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>clojars.org</id>
+            <url>https://repo.clojars.org</url>
+        </repository>
+    </repositories>
+
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/de.sojamo/oscp5 -->
         <dependency>
-            <groupId>com.illposed.osc</groupId>
-            <artifactId>javaosc-core</artifactId>
-            <version>0.8</version>
+            <groupId>de.sojamo</groupId>
+            <artifactId>oscp5</artifactId>
+            <version>0.9.8</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
