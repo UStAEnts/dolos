@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf199785-b9aa-4c8b-855d-2d2898872d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/ClientOSC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/Dolos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/entscrew/dolos/Dolos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,26 +149,26 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="739" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1622992409141" />
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1623363218326">
+    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1623364551217">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623363218326" />
-    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1623363218325">
+    <state width="1877" height="365" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623364551217" />
+    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1623364551217">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623363218325" />
-    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1623363218325">
+    <state width="1877" height="365" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623364551217" />
+    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1623364551217">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623363218325" />
-    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1623363218325">
+    <state width="1877" height="365" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623364551217" />
+    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1623364551217">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623363218325" />
-    <state x="540" y="351" key="Maven.ArtifactSearchDialog" timestamp="1623362560112">
+    <state width="1877" height="365" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623364551217" />
+    <state x="540" y="471" width="940" height="570" key="Maven.ArtifactSearchDialog" timestamp="1623364283102">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="540" y="351" key="Maven.ArtifactSearchDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623362560112" />
+    <state x="540" y="471" width="940" height="570" key="Maven.ArtifactSearchDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1623364283102" />
     <state x="461" y="225" key="SettingsEditor" timestamp="1622497796156">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

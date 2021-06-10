@@ -38,13 +38,13 @@ public class Dolos extends Application {
         OscP5 oscP5;
         NetAddress x32;
 
-        oscP5 = new OscP5(null, 10023);
+        oscP5 = new OscP5(new Object(), 10023);
         x32 = new NetAddress("192.168.1.78", 10023);
 
 
         OscMessage oscMessage = new OscMessage("/ch/01/mix/on");
-        oscMessage.add(0);
-        oscP5.send(oscMessage);
+        oscMessage.add(1);
+        oscP5.send(oscMessage, x32);
 
         launch();
 
