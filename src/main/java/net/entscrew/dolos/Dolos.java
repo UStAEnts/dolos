@@ -41,13 +41,18 @@ public class Dolos extends Application {
         oscP5 = new OscP5(new Object(), 10023);
         x32 = new NetAddress("192.168.1.78", 10023);
 
-
         OscMessage oscMessage = new OscMessage("/ch/01/mix/on");
         oscMessage.add(1);
         oscP5.send(oscMessage, x32);
 
         launch();
 
+    }
+
+    void oscEvent(OscMessage oscMessage) {
+        System.out.println("### received an osc message.");
+        System.out.println(" addrpattern: "+oscMessage.addrPattern());
+        System.out.println(" typetag: "+oscMessage.typetag());
     }
 
 }
