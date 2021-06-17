@@ -12,6 +12,7 @@ import net.entscrew.dolos.ClientOSC;
 import netP5.NetAddress;
 import oscP5.OscMessage;
 import oscP5.OscP5;
+import oscP5.OscProperties;
 
 
 public class Dolos extends Application {
@@ -36,14 +37,26 @@ public class Dolos extends Application {
 
     public static void main(String[] args) {
         OscP5 oscP5;
-        NetAddress x32;
+        OscProperties x32;
 
-        oscP5 = new OscP5(new Object(), 10023);
-        x32 = new NetAddress("192.168.1.78", 10023);
+        x32 = new OscProperties();
+        x32.setRemoteAddress("192.168.1.78", 10023);
+        x32.setListeningPort(10023);
+        x32.setSRSP(OscProperties.ON);
+        x32.setDatagramSize(1024);
 
-        OscMessage oscMessage = new OscMessage("/ch/01/mix/on");
+        oscP5 = new OscP5(new Object(), x32);
+
+        // Sign up to recieve updates from X32
+        OscMessage oscMessage = new OscMessage("/xremote");
+        oscP5.send(oscMessage);
+
+        oscMessage = new OscMessage("/ch/01/mix/on");
         oscMessage.add(1);
-        oscP5.send(oscMessage, x32);
+        oscP5.send(oscMessage);
+
+        oscMessage = new OscMessage("/unsubscribe");
+        oscP5.send(oscMessage);
 
         launch();
 
